@@ -1,0 +1,17 @@
+/* CSS */
+
+body {
+	font-family: helvetica, sans-serif;
+	color: rgba( 255, 34, 204, 0.8);
+	text-align: center;
+	background: #000000 url(../background.jpg);
+}
+
+p {
+	color: #ff22cc;
+}
+
+a {
+	text-decoration: none;
+	color: #88CCDD;
+}
