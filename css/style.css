@@ -5,6 +5,7 @@ body {
 	color: rgba( 255, 34, 204, 0.8);
 	text-align: center;
 	background: #000000 url(../background.jpg);
+	background-attachment: fixed;
 }
 
 p {
