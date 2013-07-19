@@ -9,7 +9,9 @@ var compInput = Math.floor((Math.random() * 15)+1);
 	
 	console.log(compInput);
 
-if((compInput > 0) && (compInput <= 5)){
+if((userInput !== "rock") && (userInput !== "paper") && (userInput !== "scissors")){
+		alert("Please enter rock, paper, or scissors...");
+}else if((compInput > 0) && (compInput <= 5)){
 	 compInput = "rock";
 	 console.log(compInput);
 }else if((compInput >= 6) && (compInput <= 10)){
@@ -21,7 +23,7 @@ if((compInput > 0) && (compInput <= 5)){
 }
 
 if(compInput === userInput){
-	alert("Computer threw" + " " + compInput + "." + "It's a tie!");
+	alert("Computer threw" + " " + compInput + "." + " It's a tie!");
 }else if(userInput === "rock") {
 	if(compInput === "scissors"){
 		alert("Computer threw" + " " + compInput + "." + " rock beats scissors, you win!");
