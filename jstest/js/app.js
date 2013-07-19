@@ -2,7 +2,9 @@
 $(document).ready(function(){
 
 
-var	userInput = prompt('Rock, Paper, or Scissors?');
+var	question = prompt('Rock, Paper, or Scissors?');
+	userInput = question.toLowerCase();
+
 var compInput = Math.floor((Math.random() * 15)+1);
 	
 	console.log(compInput);
@@ -22,21 +24,21 @@ if(compInput === userInput){
 	alert("Computer threw" + " " + compInput + "." + "It's a tie!");
 }else if(userInput === "rock") {
 	if(compInput === "scissors"){
-		alert("Computer threw" + " " + compInput + "." + " Rock beats scissors, you win!");
+		alert("Computer threw" + " " + compInput + "." + " rock beats scissors, you win!");
 	}else if(compInput === "paper"){
-		alert("Computer threw" + " " + compInput + "." + " Paper beats rock, you lose.");
+		alert("Computer threw" + " " + compInput + "." + " paper beats rock, you lose.");
 	}
 }else if(userInput === "paper"){
 	if(compInput === "rock"){
-		alert("Computer threw" + " " + compInput + "." + " Paper beats rock, you win!");
+		alert("Computer threw" + " " + compInput + "." + " paper beats rock, you win!");
 	}else if(compInput === "scissors"){
-		alert("Computer threw" + " " + compInput + "." + " Scissors beat paper, you lose");
+		alert("Computer threw" + " " + compInput + "." + " scissors beat paper, you lose");
 	}
 }else if(userInput === "scissors"){
 	if(compInput === "paper"){
-		alert("Computer threw" + " " + compInput + "." + " Scissors beat paper, you win!");
+		alert("Computer threw" + " " + compInput + "." + " scissors beat paper, you win!");
 	}else if(compInput === "rock"){
-		alert("Computer threw" + " " + compInput + "." + " Rock beats scissors, you lose.");
+		alert("Computer threw" + " " + compInput + "." + " rock beats scissors, you lose.");
 	}
 }
 
