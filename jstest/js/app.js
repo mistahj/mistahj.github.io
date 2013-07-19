@@ -3,17 +3,17 @@ $(document).ready(function(){
 
 
 var	userInput = prompt('Rock, Paper, or Scissors?');
-var compInput = Math.floor((Math.random() * 10)+1);
+var compInput = Math.floor((Math.random() * 15)+1);
 	
 	console.log(compInput);
 
-if((compInput > 0) && (compInput <= 3)){
+if((compInput > 0) && (compInput <= 5)){
 	 compInput = "rock";
 	 console.log(compInput);
-}else if((compInput >= 4) && (compInput <= 7)){
+}else if((compInput >= 6) && (compInput <= 10)){
 	compInput = "paper";
 	 console.log(compInput);
-}else if((compInput >= 8) && (compInput < 10)){
+}else if((compInput >= 11) && (compInput < 15)){
 	 compInput = "scissors";
 	 console.log(compInput);
 }
