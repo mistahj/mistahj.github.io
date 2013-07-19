@@ -13,7 +13,7 @@ if((compInput > 0) && (compInput <= 5)){
 }else if((compInput >= 6) && (compInput <= 10)){
 	compInput = "paper";
 	 console.log(compInput);
-}else if((compInput >= 11) && (compInput < 15)){
+}else if((compInput >= 11) && (compInput <= 15)){
 	 compInput = "scissors";
 	 console.log(compInput);
 }
