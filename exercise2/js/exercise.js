@@ -84,14 +84,15 @@ var bigNumber = function(num1, num2){
  */
 var testArray = [1, 5, 4, 3, 2, 9, 8, 7, 6, 10]
 
-var sum = 0;
 
 var addArray = function(testing){
 	
+	var sum = 0;
+
 	for(i = 0; i < testing.length; i++){
 		sum += testing[i];
 	}
-		console.log(sum)
+		return sum
 }
 
 
