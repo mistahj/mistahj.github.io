@@ -76,17 +76,10 @@ body{
   color: black;
 }
 
-.contact{
-  width: 900px;
-  padding-top: 5px;
-  margin: 0 auto;
-  overflow: hidden;
+.nav_button{
+  display: none;
 }
 
-.contact #social{
-  float: right;
-  width: 130px;
-}
 
 
 @media all and (max-width: 999px) and (min-width: 725px){
@@ -163,18 +156,89 @@ body{
 
    .head_contain h1{
     float: none;
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
     text-align: center;
     font-size: 50px;
+    position: absolute;
+    position: relative;
     }
 
    .head_contain nav{
-    display: none;
+    float: none;
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1em;
    }
+
+   .head_contain nav ul{
+    width: 85%;
+    overflow: hidden;
+    margin: 0 auto;
+   }
+
+
+
+}
+
+@media all and (max-width: 480px){
 
    .contact{
     display: none;
+   }
+
+   .head_contain{
+    height: 110px;
+   }
+
+   .head_contain h1{
+    float: left;
+    margin-left: 30px;
+    width: 350px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    }
+
+    .head_contain nav{
+      display: none;
+    }
+
+   .nav_button{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    width: 50px;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+   }
+
+   .nav_button ul{
+    list-style-type: none;
+   }
+
+   .button{
+   width: 60px;
+   height: 25px;
+   text-align: center;
+   background-color: #0b7096;
+   }
+
+   .mini_menu{
+    display: none;
+    background-color: #0b7096;
+    color: white;
+    width: 100px;
+    padding: 5px;
+/*    position: absolute;
+    left: 5px;*/
+    font-size: 15px;
+   }
+
+   .mini_menu a{
+    color: #ffffff;
+    text-decoration: none;
    }
 
 }

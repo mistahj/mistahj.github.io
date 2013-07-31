@@ -107,7 +107,12 @@ $(document).ready(function(){
 
 	})
 
-
+	$('.button').click(function(){
+    	$('.mini_menu').slideDown(500),
+   		$('.button').click(function(){
+      		$('.mini_menu').slideUp(500)
+    		})
+   	})
 
 
 })
