@@ -1,8 +1,8 @@
 .head_contain{
   width: 900px;
   margin: 0 auto;
-  /*border: 1px solid yellow;*/
-  margin-top: 44px;
+  margin-top: 14px;
+  margin-left: 230px;
   padding-bottom: 8px;
   overflow: hidden;
 }
@@ -14,14 +14,12 @@
   font-size: 60px;
   font-family: thirsty_roughbold_three;
   text-shadow: 2px 2px 3px rgba(2, 27, 75, 0.9);
-  /*border: 1px solid red;*/
 }
 
 .head_contain nav{
   margin-top: 17px;
   float: right;
   overflow: hidden;
-  /*border: 1px solid red;*/
   margin-bottom: 10px;
 }
 
