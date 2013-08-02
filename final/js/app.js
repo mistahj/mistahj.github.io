@@ -115,4 +115,14 @@ $(document).ready(function(){
    	})
 
 
+   	// colorbox plugin for image gallery
+
+   	$(".outdoors").find("a.photos").colorbox({rel:"group1"});
+
+   	$(".hoopin").find("a.photos").colorbox({rel:"group2"});
+
+   	$(".black").find("a.photos").colorbox({rel:"group3"});
+
+
+
 })
