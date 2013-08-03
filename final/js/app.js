@@ -89,7 +89,7 @@ $(document).ready(function(){
 
 	$('#hoopin').click(function(){
 		$('.outdoors').fadeOut(),
-		$('.hoopin').slideUp().fadeIn();
+		$('.hoopin').fadeIn();
 		$('.black').fadeOut();
 	})
 
@@ -108,11 +108,9 @@ $(document).ready(function(){
 	})
 
 	$('.button').click(function(){
-    	$('.mini_menu').slideDown(500),
-   		$('.button').click(function(){
-      		$('.mini_menu').slideUp(500)
-    		})
+    	$('.mini_menu').slideToggle(500)
    	})
+
 
 
    	// colorbox plugin for image gallery

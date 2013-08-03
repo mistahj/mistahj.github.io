@@ -195,12 +195,14 @@ body{
    .head_contain{
     height: 110px;
     margin-top: 0;
+    margin-bottom: 25px;
    }
 
    .head_contain h1{
     float: none;
     width: 230px;
     margin: 20px auto;
+    margin-left: 100px;
     text-align: center;
     font-size: 35px;
     padding: 8px;
@@ -231,8 +233,7 @@ body{
 
    .mini_menu{
     display: none;
-    background-color: #0b7096;
-    color: white;
+    background-color: #eee;
     width: 100px;
     padding: 5px;
     position: absolute;
@@ -241,7 +242,7 @@ body{
    }
 
    .mini_menu a{
-    color: #ffffff;
+    color: #0B7096;
     text-decoration: none;
    }
 
