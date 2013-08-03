@@ -202,7 +202,7 @@ body{
     float: none;
     width: 230px;
     margin: 20px auto;
-    margin-left: 100px;
+/*    margin-left: 100px;*/
     text-align: center;
     font-size: 35px;
     padding: 8px;
@@ -239,6 +239,7 @@ body{
     position: absolute;
     left: 0px;
     font-size: 15px;
+    line-height: 28px;
    }
 
    .mini_menu a{
