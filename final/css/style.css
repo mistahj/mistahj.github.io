@@ -183,18 +183,24 @@ body{
 
 @media all and (max-width: 480px){
 
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
    .contact{
     display: none;
    }
 
    .head_contain{
     height: 110px;
+    margin-top: 0;
    }
 
    .head_contain h1{
-    float: left;
+    float: none;
     width: 230px;
-    margin-left: 55px;
+    margin: 20px auto;
     text-align: center;
     font-size: 35px;
     padding: 8px;
@@ -206,12 +212,8 @@ body{
 
    .nav_button{
     display: block;
-    float: left;
-    margin-left: 10px;
-    width: 50px;
+    width: 100%;
     margin: 0 auto;
-    position: relative;
-    float: left;
    }
 
    .nav_button ul{
@@ -219,10 +221,12 @@ body{
    }
 
    .button{
-   width: 60px;
-   height: 25px;
    text-align: center;
-   background-color: #0b7096;
+   background-color: #0B7096;
+   }
+
+   .button img{
+    display: block;
    }
 
    .mini_menu{
@@ -231,8 +235,8 @@ body{
     color: white;
     width: 100px;
     padding: 5px;
-/*    position: absolute;
-    left: 5px;*/
+    position: absolute;
+    left: 0px;
     font-size: 15px;
    }
 
