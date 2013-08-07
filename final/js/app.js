@@ -88,22 +88,22 @@ $(document).ready(function(){
 
 
 	$('#hoopin').click(function(){
-		$('.outdoors').fadeOut(),
+		$('.outdoors').hide(),
 		$('.hoopin').fadeIn();
-		$('.black').fadeOut();
+		$('.black').hide();
 	})
 
 	$('#outdoors').click(function(){
+		$('.black').hide();
 		$('.outdoors').fadeIn();
-		$('.hoopin').fadeOut();
-		$('.black').fadeOut();
+		$('.hoopin').hide();
 
 	})
 
 	$('#black').click(function(){
-		$('.hoopin').fadeOut();
+		$('.hoopin').hide();
 		$('.black').fadeIn();
-		$('.outdoors').fadeOut();
+		$('.outdoors').hide();
 
 	})
 
@@ -120,6 +120,20 @@ $(document).ready(function(){
    	$(".hoopin").find("a.photos").colorbox({rel:"group2"});
 
    	$(".black").find("a.photos").colorbox({rel:"group3"});
+
+   	//carousel for main page slideshow
+
+   		$('.carousel').carousel({
+  			interval: 2000,
+  			pause: "hover"
+		});
+
+   	//scrollTo
+
+   		$('nav').find('a').click(function(e){
+			$('.bigbox').scrollTo(this.hash, this.hash);
+			e.preventDefault();
+		});
 
 
 

@@ -1,18 +1,69 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body{
-  background: #eee;
   color: #fff;
-  font-family: Podkova, serif;
-  font-size: 1.25em; /*20px;*/
+  font-family: 'Podkova', serif;
+  font-size: 1.25em;
   line-height: 1.3em;
+  background-color: #EEEEEE;
+}
+
+.bigbox{
+  width: 1100px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.scroll_contain{
+  width: 4400px;
+  overflow: hidden;
+}
+
+.scroll_contain .box{
+  width: 1100px;
+  height: 600px;
+  float: left;
+}
+
+ .scroll_contain #box1{
+  background-color: #eee;
+}
+
+.scroll_contain #box2{
+  background-color: #eee;
+}
+
+.scroll_contain #box3{
+  background-color: #eee;
+}
+
+.scroll_contain #box4{
+  background-color: #eee;
+}
+
+
+.bigslide{
+  width: 5104px;
+  border: 1px solid red;
+}
+
+.slides{
+  float: left;
+}
+
+.imgbox{
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #0b7096;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .head_contain{
   width: 900px;
   margin: 0 auto;
-  margin-top: 25px;
-  padding-bottom: 8px;
+  margin-top: 20px;
   overflow: hidden;
 }
 
@@ -26,8 +77,9 @@ body{
 }
 
 .head_contain nav{
-  margin-top: 20px;
+  margin-top: 40px;
   float: right;
+  margin-right: -31px;
   overflow: hidden;
 }
 
@@ -43,7 +95,7 @@ body{
   font-family: 'Strait', sans-serif;
   font-size: 25px;
   color: #0FA5DD;
-  margin-left: 30px;
+  margin-right: 31px;
   text-align: right;
   padding-top: 15px;
   padding-bottom: 5px;
@@ -61,6 +113,11 @@ body{
   width: auto;
   background-color: #0b7096;
   padding: 20px;
+}
+
+.hold_img{
+ width: 600px;
+ margin: 30px auto;
 }
 
 .img_contain img{
@@ -81,6 +138,185 @@ body{
 }
 
 
+.carousel-inner img{
+  width: 600px;
+  height: auto;
+}
+
+/*Photography Page Styles ----------------------------------------*/
+
+.main_content{
+  width: 1050px;
+  background-color: #0b7096;
+  margin: 3px auto;
+  position: relative;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+ .nav_sidebar{
+  width: 100px;
+  position: relative;
+  float: left;
+}
+
+.nav_sidebar ul:before{
+  content: '  ';
+  position: absolute;
+  left: -1px;
+  bottom: -15px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 30px 15px 2px;
+  border-color: transparent #02171e  transparent transparent;
+}
+
+.nav_sidebar ul{
+  width: 130px;
+  height: 100%;
+  position: absolute;
+  left: -55px;
+  top: 25px;
+  position: relative;
+  box-shadow: 2px 2px 3px 1px  rgba(0, 0, 0, 0.5);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 8px;
+}
+
+
+.nav_sidebar ul li a{
+  display: block;
+  width: 130px;
+  background-color: #063a4d;
+  color: #EEEEEE;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 21px;
+  font-family: 'Strait', sans-serif;
+  text-shadow: 0.5px 1.3px 1px rgba(187, 187, 187, 0.5);
+}
+
+
+.lastnav{
+  border-bottom-right-radius: 5px;
+}
+
+.nav_sidebar ul li a:hover{
+  background-color: #ffffff;
+  color: #063a4d;
+}
+
+.nav_sidebar ul li a.actived{
+  background-color: #ffffff;
+  color: #063a4d;
+}
+
+
+.content{
+  width: 900px;
+  background-color: #1A6F9A;
+  margin: 0px auto;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.photogrid{
+  overflow: hidden;
+  margin-top: 0;
+  padding: 5px 10px;
+  margin: 0 auto;
+}
+
+.content .content_liner{
+  margin-right: -70px;
+
+}
+.content img{
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.8);
+}
+
+.content .photo{
+  float: left;
+  margin-right: 70px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.content .caption{
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: 'Podkova', serif;
+  color: #fff;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  display: none;
+}
+
+
+.content1 p{
+  
+
+}
+
+.contact{
+  width: 900px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.contact #social{
+  float: right;
+  width: 130px;
+}
+
+
+.outdoors{
+}
+
+.hoopin{
+  margin-right: 25px;
+  display: none;
+}
+
+.black{
+  margin-right: 25px;
+  display: none;
+}
+
+
+
+/*End Photography page styles -----------------------------------------*/
+
+
+@media all and (max-width: 1179px){
+
+  .main_content{
+    width: 90%;
+  }
+
+  .content{
+    width: 85%;
+  }
+
+  .photogrid{
+    width: 80%;
+  }
+
+
+}
+
+
+@media all and (max-width: 1144px){
+
+}
 
 @media all and (max-width: 999px) and (min-width: 725px){
 
@@ -89,9 +325,14 @@ body{
     padding: 20px;
    }
 
+   .hold_img{
+    width: 100%;
+   }
+
    .img_contain img{
     width: 90%;
    }
+
 
    .head_contain{
     width: 100%;
@@ -121,7 +362,7 @@ body{
     text-align: center;
    }
 
-   p{
+   .content1 p{
     margin: 0 auto;
   }
 
@@ -132,6 +373,8 @@ body{
   .container{
     width: 100%;
   }
+
+
 }
 
 
@@ -146,12 +389,20 @@ body{
     padding: 20px;
    }
 
+  .hold_img{
+    width: 100%;
+  }
+
   .head_contain{
     width: 100%;
    }
 
    .img_contain img{
     width: 90%;
+   }
+
+   .item img{
+    width: 60%;
    }
 
    .head_contain h1{
