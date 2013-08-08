@@ -227,6 +227,10 @@ body{
    height: 40%;
  }
 
+ #text{
+  font-family: 'Padkova', serif;
+ }
+
 
 
 /*End of About Me Page Styles ----------------------------------------*/
