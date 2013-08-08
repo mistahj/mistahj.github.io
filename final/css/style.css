@@ -180,10 +180,14 @@ body{
   margin-right: 60px;
  }
 
+.bio_content2{
+  width: 800px;
+  margin: 10px auto;
+}
 
 
  .polaroid_outer1{
-  width: 174px;
+  width: 210px;
   float: left;
   border: 1px solid black;
   overflow: hidden;
@@ -194,24 +198,31 @@ body{
 
  .polaroid_inner1{
    border: 1px solid black;
+   width: 100%;
+   height: auto;
  }
 
+
+
  .polaroid_outer2{
-  width: 174px;
+  width: 205px;
   float: left;
   border: 1px solid black;
   overflow: hidden;
   padding: 10px 10px 35px 10px;
-  box-shadow: -3px 5px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 5px 3px rgba(0, 0, 0, 0.5);
    -webkit-transform: rotate(20deg);
  }
 
  .polaroid_inner2{
    border: 1px solid black;
+   width: 100%;
+   height: auto;
  }
 
 
 
+/*End of About Me Page Styles ----------------------------------------*/
 
 /*Photography Page Styles ----------------------------------------*/
 
