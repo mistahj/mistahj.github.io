@@ -164,12 +164,13 @@ body{
     margin: 0 auto;
     padding: 40px;
     overflow: hidden;
+    font-family: 'Podkova', serif;
  }
 
- .bio_content p, .bio_content2 p{
+ /*.bio_content p, .bio_content2 p{
   font-family: 'Podkova', serif;
   margin-top: 15px;
- }
+ }*/
 
  .bio_content img, .bio_content p{
   float: left;
