@@ -159,7 +159,7 @@ body{
     font-family: 'Strait', sans-serif;
  }
 
-  .bio_content, .bio_content2{
+  .bio_content{
     width: 750px;
     margin: 0 auto;
     padding: 40px;
@@ -189,6 +189,7 @@ body{
 .bio_content2{
   width: 800px;
   margin: 10px auto;
+  font-family: 'Podkova', serif;
 }
 
 
