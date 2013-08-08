@@ -166,6 +166,11 @@ body{
     overflow: hidden;
  }
 
+ .bio_content p, .bio_content2 p{
+  font-family: 'Podkova', serif;
+  margin-top: 15px;
+ }
+
  .bio_content img, .bio_content p{
   float: left;
  }
@@ -217,7 +222,7 @@ body{
  .polaroid_inner2{
    border: 1px solid black;
    width: 100%;
-   height: auto;
+   height: 40%;
  }
 
 
