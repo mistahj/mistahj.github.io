@@ -2,6 +2,7 @@
 
 body{
   color: #fff;
+  height: auto;
   font-family: 'Podkova', serif;
   font-size: 1.25em;
   line-height: 1.3em;
@@ -153,6 +154,7 @@ body{
     font-size: 20px;
     font-family: 'Podkova', serif;
     padding: 5px;
+    position: relative;
   }
 
   .me h1{
@@ -236,6 +238,79 @@ body{
 
 
 /*End of About Me Page Styles ----------------------------------------*/
+
+
+/*Poetry Page Styles ----------------------------------------*/
+
+.poetry_contain{
+  width: 930px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.poembox{
+  margin: 0 auto;
+}
+
+.poem_list{
+  width: 299px;
+  height: 100px;
+  float: left;
+  padding: 10px;
+  margin: 0;
+  background-color: #0C394F;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ffffff;
+}
+
+
+.poem p{
+  margin-top: 50px;
+}
+/*End of Poetry Page Styles ----------------------------------------*/
+
+/*Poetry Pages Styles ----------------------------------------*/
+
+.poem_head{
+  width: 250px;
+  text-align: left;
+  float: left;
+  line-height: 35px;
+  margin-right: 10px;
+}
+
+.poem{
+  width: 620px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center; 
+  float: right;
+}
+
+.back{
+  font-family: 'Strait', serif;
+  width: 100px;
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.left{
+  text-align: left;
+}
+
+.poem_contain{
+  overflow: hidden;
+}
+
+.poem p{
+  margin-top: 19px;
+}
+
+/*End of Poetry Pages Styles ----------------------------------------*/
+
 
 /*Photography Page Styles ----------------------------------------*/
 
@@ -340,6 +415,7 @@ body{
   margin-right: 70px;
   margin-top: 10px;
   padding-bottom: 10px;
+  width: 240px;
   position: relative;
 }
 
@@ -531,15 +607,12 @@ body{
 @media all and (max-width: 480px){
 
   body{
+    width: 100%;
     margin: 0;
     padding: 0;
   }
-
-   .contact{
-    display: none;
-   }
-
    .head_contain{
+    width: 100%;
     height: 110px;
     margin-top: 0;
     margin-bottom: 25px;
@@ -548,7 +621,7 @@ body{
    .head_contain h1{
     float: none;
     width: 230px;
-    margin: 20px auto;
+    margin-top: 20px;
     text-align: center;
     font-size: 35px;
     padding: 8px;
@@ -560,8 +633,8 @@ body{
 
    .nav_button{
     display: block;
-    width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    /*margin: 0 auto;*/
    }
 
    .nav_button ul{
@@ -591,6 +664,23 @@ body{
    .mini_menu a{
     color: #0B7096;
     text-decoration: none;
+   }
+
+   .imgbox{
+    width: 100%;
+    border: 1px solid red;
+   }
+
+   .scroll_contain{
+    width: 80%;
+   }
+
+   .img_contain img{
+    width: 50%;
+   }
+
+   .item img{
+    width: 60%;
    }
 
 }

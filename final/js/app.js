@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
 
+
 	$('a#home').mouseover(function(){
 		$('a').removeClass('active')
 		$('a#home').addClass('active')
@@ -133,6 +134,26 @@ $(document).ready(function(){
    		$('nav').find('a').click(function(e){
 			$('.bigbox').scrollTo(this.hash, this.hash);
 			e.preventDefault();
+		});
+
+	//Poetry Page
+		$('.poem_list').hover(
+		function(){
+			$(this).css('position', 'relative'),
+			$(this).css('z-Index', '100'),
+			$(this).css('margin', '0'),
+			$(this).css('background-color', '#EEEEEE'),
+			$(this).css('color', '#1C86D2'),
+			$(this).transition({scale: 1.2}, 100),
+			$(this).transition({scale: 1})
+		},
+		function(){
+			$(this).transition({scale: 1}),
+			$(this).css('position', 'relative'),
+			$(this).css('z-Index', '5'),
+			$(this).css('margin', '0'),		
+			$(this).css('color', '#FFFFFF'),	
+			$(this).css('background-color', '#0C394F')
 		});
 
 
