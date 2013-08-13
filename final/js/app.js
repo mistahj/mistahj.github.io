@@ -3,6 +3,42 @@
 $(document).ready(function(){
 
 
+	$('a.topnav').first().click(function(){
+
+		var height = $('.imgbox').height()+20;
+		console.log(height);
+		$('.bigbox').css({
+			height: height
+		});
+
+	});
+
+	$('a#about').click(function(){
+		var height = $('#box2').find('.main_content').height()+60;
+		console.log(height);
+		$('.bigbox').css({
+			height: height
+		});
+	})
+
+	$('a#poetry').click(function(){
+		var height = $('#box3').find('.main_content').height()+60;
+		console.log(height);
+		$('.bigbox').css({
+			height: height
+		}); 
+	})
+
+	$('a.topnav').last().click(function(){
+
+		var height = $('#box4').find('.main_content').height()+60;
+		console.log(height);
+		$('.bigbox').css({
+			height: height
+		});
+	})
+
+
 	$('a#home').mouseover(function(){
 		$('a').removeClass('active')
 		$('a#home').addClass('active')
