@@ -502,7 +502,7 @@ body{
   }
 
   #box1{
-    width: 476px;
+    width: 465px;
     height: 333px;
     overflow: hidden;
   }
@@ -522,7 +522,7 @@ body{
   }
 
   .nav_button{
-    width: 100%;
+    width: 80%;
     height: 33px;
     display: block;
     background-color: #1A6F9A;
