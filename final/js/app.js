@@ -195,6 +195,44 @@ $(document).ready(function(){
 		});
 
 		$(".iframe").colorbox({iframe:true, width:"80%", height:"90%"});
+	//End Poetry Page
+
+	//Mobile Home 
+
+		$('a.buttonnav').first().click(function(){
+
+		var height = $('.imgbox').height()+30;
+		console.log(height);
+		$('.bigbox').css({
+			height: height
+		});
+
+		});
+
+		$('a#babout').click(function(){
+			var height = $('#box2').find('.main_content').height()+60;
+			console.log(height);
+			$('.bigbox').css({
+				height: height
+			});
+		})
+
+		$('a#bpoetry').click(function(){
+			var height = $('#box3').find('.main_content').height()+60;
+			console.log(height);
+			$('.bigbox').css({
+				height: height
+			}); 
+		})
+
+		$('a.buttonnav').last().click(function(){
+
+			var height = $('#box4').find('.main_content').height()+60;
+			console.log(height);
+			$('.bigbox').css({
+				height: height
+			});
+		})
 
 
 })

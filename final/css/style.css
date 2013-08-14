@@ -111,7 +111,7 @@ body{
 
 
 .img_contain{
-  width: auto;
+  width: 100%;
   background-color: #0b7096;
   padding: 20px;
 }
@@ -468,17 +468,7 @@ body{
 
 @media all and (max-width: 1179px){
 
-  .main_content{
-    width: 90%;
-  }
 
-  .content{
-    width: 85%;
-  }
-
-  .photogrid{
-    width: 80%;
-  }
 
 
 }
@@ -490,59 +480,7 @@ body{
 
 @media all and (max-width: 999px) and (min-width: 725px){
 
-   .img_contain{
-    width: 100%;
-    padding: 20px;
-   }
 
-   .hold_img{
-    width: 100%;
-   }
-
-   .img_contain img{
-    width: 90%;
-   }
-
-
-   .head_contain{
-    width: 100%;
-   }
-
-   .head_contain nav{
-    width: 75%;
-    margin: 10px auto;
-    float: none;
-   }
-
-   .head_contain nav ul{
-    text-align: center;
-    overflow: hidden;
-    width: 505px;
-    margin: 0 auto;
-   }
-
-   .head_contain nav ul li{
-   text-align: center;
-   }
-
-   .head_contain h1{
-    margin: 0 auto;
-    float: none;
-    width: 75%;
-    text-align: center;
-   }
-
-   .content1 p{
-    margin: 0 auto;
-  }
-
-  .contact{
-    display: none;
-  }
-
-  .container{
-    width: 100%;
-  }
 
 
 }
@@ -550,53 +488,7 @@ body{
 
 @media all and (max-width: 725px){
 
-  .container{
-    width: 100%;
-  }
 
-  .img_contain{
-    width: 100%;
-    padding: 20px;
-   }
-
-  .hold_img{
-    width: 100%;
-  }
-
-  .head_contain{
-    width: 100%;
-   }
-
-   .img_contain img{
-    width: 90%;
-   }
-
-   .item img{
-    width: 60%;
-   }
-
-   .head_contain h1{
-    float: none;
-    width: 350px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 50px;
-    position: absolute;
-    position: relative;
-    }
-
-   .head_contain nav{
-    float: none;
-    width: 85%;
-    margin: 0 auto;
-    font-size: 1em;
-   }
-
-   .head_contain nav ul{
-    width: 85%;
-    overflow: hidden;
-    margin: 0 auto;
-   }
 
 
 
@@ -605,81 +497,189 @@ body{
 @media all and (max-width: 480px){
 
   body{
-    width: 100%;
     margin: 0;
     padding: 0;
   }
-   .head_contain{
-    width: 100%;
-    height: 110px;
-    margin-top: 0;
-    margin-bottom: 25px;
-   }
 
-   .head_contain h1{
-    float: none;
-    width: 230px;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 35px;
-    padding: 8px;
-    }
+  #box1{
+    width: 476px;
+    height: 333px;
+    overflow: hidden;
+  }
 
-    .head_contain nav{
-      display: none;
-    }
+  .scroll_contain{
+    width: 1800px
+  }
 
-   .nav_button{
-    display: block;
+  .head_contain{
     margin: 0;
-    /*margin: 0 auto;*/
-   }
+    width: 100%
+    ;
+  }
 
-   .nav_button ul{
-    list-style-type: none;
-   }
-
-   .button{
-   text-align: center;
-   background-color: #0B7096;
-   }
-
-   .button img{
-    display: block;
-   }
-
-   .mini_menu{
+  .head_contain nav{
     display: none;
-    background-color: #eee;
-    width: 100px;
-    padding: 5px;
-    position: absolute;
-    left: 0px;
-    font-size: 15px;
-    line-height: 28px;
-   }
+  }
 
-   .mini_menu a{
-    color: #0B7096;
-    text-decoration: none;
-   }
-
-   .imgbox{
+  .nav_button{
     width: 100%;
-    border: 1px solid red;
-   }
+    height: 33px;
+    display: block;
+    background-color: #1A6F9A;
+    margin-top: 0;
+  }
 
-   .scroll_contain{
+  .nav_button ul{
+    list-style-type: none;
+  }
+
+  .button{
+    margin-left: -10;
+    width: 33px;
+  }
+
+  .button img{
+    margin-left: -10px;
+  }
+
+  .mini_menu{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    left: -10px;
+    background-color: #eeeeee;
+  }
+
+  .head_contain h1{
+    float: none;
+    width: 65%;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .bigbox{
+    width: auto;
+    height: 333px;
+  }
+   
+  .imgbox{
+    width: 100%;
+    margin: 5px;
+    height: auto;
+  }
+
+  .hold_img{
     width: 80%;
-   }
+  }
 
-   .img_contain img{
+  /*About Me iPhone styles_____*/
+
+  .main_content{
+    width: 480px;
+  }
+
+  .me{
+    width: 90%;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .bio_content{
+    width: 100%;
+  }
+
+  #box2{
+    width: 476px;
+  }
+
+  .polaroid_outer1{
+    float: none;
+    margin: 0 auto;
+  }
+
+  .bio_content p{
+    display: block;
+    float: none;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .bio_content p:nth-child(even){
+    margin: 40px auto;
+    width: 100%;
+  }
+
+  .bio_content p:nth-child(odd){
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .polaroid_outer2{
+    float: none;
+    margin: 40px auto;
+  }
+
+  .bio_content2{
+    width: 100%;
+  }
+
+  .bio_content2 p{
+    width: 100%;
+  }
+
+/* Poetry Page iPhone Styles_____ */
+
+  .poetry_contain{
+    width: 100%;
+  }
+
+  .poembox{
+    width: 100%;
+  }
+
+  #box3{
+    width: 476px;
+  }
+
+  .poetry_contain{
+    width: 100%;
+  }
+
+  .poem_list{
     width: 50%;
-   }
+  }
 
-   .item img{
-    width: 60%;
-   }
+  .poem_contain{
+    width: 80%;
+  }
+
+  .poem_head{
+    float: none;
+    margin: 10px auto;
+  }
+
+  .poem{
+    float: none;
+    width: 45%;
+  }
+
+  .poem p{
+    float: left;
+    width: 150%;
+    padding: 15px;
+    margin-left: -10px;
+  }
+
+  .me{
+    width: 100%;
+  }
+
+/*Photography page iPhone styles */
+
+  #box4{
+    width: 470px;
+  }
 
 }
 
