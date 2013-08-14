@@ -163,7 +163,7 @@ $(document).ready(function(){
    	//carousel for main page slideshow
 
    		$('.carousel').carousel({
-  			interval: 2000,
+  			interval: 5000,
   			pause: "hover"
 		});
 
