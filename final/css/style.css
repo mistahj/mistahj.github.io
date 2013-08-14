@@ -292,10 +292,7 @@ body{
 }
 
 .back{
-  font-family: 'Strait', serif;
-  width: 100px;
-  font-size: 25px;
-  margin-left: 25px;
+  display: none;
 }
 
 .left{

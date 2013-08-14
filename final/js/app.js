@@ -158,6 +158,8 @@ $(document).ready(function(){
 
    	$(".black").find("a.photos").colorbox({rel:"group3"});
 
+
+
    	//carousel for main page slideshow
 
    		$('.carousel').carousel({
@@ -168,7 +170,7 @@ $(document).ready(function(){
    	//scrollTo
 
    		$('nav').find('a').click(function(e){
-			$('.bigbox').scrollTo(this.hash, this.hash);
+			$('.bigbox').scrollTo(this.hash, this.hash, 80);
 			e.preventDefault();
 		});
 
@@ -192,6 +194,7 @@ $(document).ready(function(){
 			$(this).css('background-color', '#0C394F')
 		});
 
+		$(".iframe").colorbox({iframe:true, width:"80%", height:"90%"});
 
 
 })
