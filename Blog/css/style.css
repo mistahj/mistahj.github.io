@@ -173,9 +173,8 @@ li:nth-last-child(1n+2){
 }
 
 .title h2{
-  color: purple;
   line-height: 30px;
-  height: 100px;
+  height: 50px;
 }
 
 }
