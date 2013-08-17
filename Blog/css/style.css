@@ -28,16 +28,22 @@ p{
   box-shadow: 0 4px 2px rgba(0, 0, 0, 0.9);
 }
 
-.head img{
+.imghold{
   width: 220px;
   height: 220px;
-  background-color: #F2F2F0;
-  padding: 10px;
-  border-radius: 110px;
   position: absolute;
   bottom: -110px;
   right: 50%;
   margin-right: -110px;
+
+}
+
+.head img{
+  width: 100%;
+  height: auto;
+  background-color: #F2F2F0;
+  padding: 10px;
+  border-radius: 110px;
 }
 
 .head_text{
@@ -140,7 +146,18 @@ li:nth-last-child(1n+2){
 
 
 
+@media all and (max-width: 320px){
 
+  .imghold{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    bottom: -110px;
+    right: 50%;
+    margin-right: -90px;
+  }
+
+}
 
 
 
