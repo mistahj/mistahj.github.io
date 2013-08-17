@@ -152,8 +152,8 @@ li:nth-last-child(1n+2){
     display: block;
     width: 180px;
     height: 180px;
-    background: url('http://placekitten.com/300/300');
-    background-size: auto 100%;
+    background-image: url('http://placekitten.com/300/300');
+    background-size: contain;
     position: absolute;
     bottom: -110px;
     right: 50%;
