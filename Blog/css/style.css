@@ -149,12 +149,21 @@ li:nth-last-child(1n+2){
 @media all and (max-width: 320px){
 
   .imghold{
+    display: block;
     width: 180px;
     height: 180px;
+    background: url('http://placekitten.com/300/300');
     position: absolute;
     bottom: -110px;
     right: 50%;
     margin-right: -90px;
+    border: 10px solid  #F2F2F0;
+    border-radius: 90px;
+
+  }
+
+  .head img{
+    display: none;
   }
 
 }
