@@ -172,6 +172,10 @@ li:nth-last-child(1n+2){
   border-right: none;
 }
 
+.title h2{
+  line-height: 20px;
+}
+
 }
 
 
