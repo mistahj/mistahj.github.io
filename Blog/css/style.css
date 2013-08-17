@@ -173,7 +173,7 @@ li:nth-last-child(1n+2){
 }
 
 .title h2{
-  line-height: 30px;
+  font-size: 1.5em;
 }
 
 }
