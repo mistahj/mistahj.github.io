@@ -10,7 +10,8 @@ var compInput = Math.floor((Math.random() * 15)+1);
 	console.log(compInput);
 
 if((userInput !== "rock") && (userInput !== "paper") && (userInput !== "scissors")){
-		alert("Please enter rock, paper, or scissors...");
+		// alert("Please enter rock, paper, or scissors...");
+		$('p').text("Please enter rock, paper, or scissors...");
 }else if((compInput > 0) && (compInput <= 5)){
 	 compInput = "rock";
 	 console.log(compInput);

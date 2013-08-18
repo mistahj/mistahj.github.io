@@ -10,8 +10,28 @@ body{
 .container{
   width: 700px;
   margin: 100px auto;
-  background-color: #fff;
+  background-color: #ccc;
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 3px;
+}
+
+form{
+  width: 280px;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="text"]{
+  border: none;
+  padding: 15px;
+  width: 200px;
+  font-size: .8em;
+}
+
+input[type="submit"]{
+  border: none;
+  padding: 16.5px;
+  background-color: blue;
+  color: white;
 }
