@@ -1,6 +1,12 @@
 // Your JS code goes here.
 $(document).ready(function(){
 
+var move = 
+$("form").submit(function(){
+    var jump = $("#move").val();
+    alert(jump);
+});
+
 
 var	question = prompt('Rock, Paper, or Scissors?');
 	userInput = question.toLowerCase();
