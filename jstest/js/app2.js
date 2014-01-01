@@ -7,7 +7,7 @@ $("form").submit(function(){
 
     if((userInput !== "scissors") && (userInput !== "rock") && (userInput   
     !== "paper")){
-      $('.words').text("please enter rock, paper, or scissors").delay(50)
+      $('.words').text("please enter rock, paper, or scissors").delay(.5)
     };
    /* }else if (mrmid == "scissors") {
      $('.words').text("you picked scissors")
