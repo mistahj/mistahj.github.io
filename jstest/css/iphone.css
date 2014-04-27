@@ -39,6 +39,7 @@ form {
   color: white;
   margin-right: 1px;
   text-align: center;
+  margin: 0 auto;
 }
 
 input[type="text"]{
@@ -48,6 +49,7 @@ input[type="text"]{
   font-size: .5em;
   /*margin-bottom: 30px;*/
   text-align: center;
+  margin: 0 auto;
 }
 
 input[type="submit"]{
@@ -59,6 +61,7 @@ input[type="submit"]{
   color: white;
   float: left;
   width: 100%;
+  margin: 0 auto;
   /*display: none;*/
 }
 
