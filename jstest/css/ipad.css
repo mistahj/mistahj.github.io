@@ -12,11 +12,12 @@ form {
   display: block;
   margin: 0 auto;
   overflow: hidden;
+  border: 1px solid red;
 }
 
 .button {
   clear: both;
-  width: 80%;
+  width: 100%;
   margin-top: 2px;
   padding: 13px;
   background-color: blue;
@@ -27,7 +28,7 @@ form {
 input[type="text"]{
   border: none;
   padding: 15px;
-  width: /*200px*/ 80%;
+  width: /*200px*/ 100%;
   font-size: .8em;
   float: left;
   /*margin-bottom: 30px;*/
@@ -42,7 +43,7 @@ input[type="submit"]{
   font-size: 1em;
   color: white;
   float: left;
-  width: 80%;
+  width: 100%;
   /*display: none;*/
 }
 
