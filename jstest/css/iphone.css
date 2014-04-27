@@ -13,11 +13,12 @@ form {
   margin: 0 auto;
   overflow: hidden;
   border: 1px solid red;
+  padding: 0px;
 }
 
 .button {
   clear: both;
-  width: 80%;
+  width: 90%;
   margin-top: 2px;
   padding: 13px;
   background-color: red;
