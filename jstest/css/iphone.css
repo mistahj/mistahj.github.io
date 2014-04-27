@@ -8,11 +8,11 @@ and (max-device-width : 480px)
 {
 
 form {
-  width: 90%;
+  width: 95%;
   display: block;
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid red;
+
   padding: 0px;
 }
 
@@ -30,7 +30,7 @@ input[type="text"]{
   border: none;
   padding: 15px;
   width: /*200px*/ 90%;
-  font-size: .8em;
+  font-size: .5em;
   float: left;
   /*margin-bottom: 30px;*/
   text-align: center;
