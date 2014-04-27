@@ -5,10 +5,7 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px)  
 {
 
-h1 {
-  font-size: .875em;
-  line-height: 20px;
-}
+
 
 form {
   width: 90%;
