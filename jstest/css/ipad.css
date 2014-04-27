@@ -1,0 +1,47 @@
+/* ipad styles */
+
+@media screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+{
+
+form {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.button {
+  clear: both;
+  width: 80%;
+  margin-top: 2px;
+  padding: 13px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+input[type="text"]{
+  border: none;
+  padding: 15px;
+  width: /*200px*/ 80%;
+  font-size: .8em;
+  float: left;
+  /*margin-bottom: 30px;*/
+  text-align: center;
+}
+
+input[type="submit"]{
+  clear: both;
+  border: none;
+  padding: 14px;
+  background-color: blue;
+  font-size: 1em;
+  color: white;
+  float: left;
+  width: 80%;
+  /*display: none;*/
+}
+
+}

@@ -30,9 +30,11 @@ p {
 }
 
 form{
-  width: /*280px*/ 39%;
+  width: /*280px*/ 50%;
   display: block;
   margin: 0 auto;
+  padding-left: 50px;
+  overflow: hidden;
 }
 
 label{
@@ -43,10 +45,11 @@ label{
 input[type="text"]{
   border: none;
   padding: 15px;
-  width: /*200px*/ 60%;
+  width: /*200px*/ 63%;
   font-size: .8em;
   float: left;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
+  text-align: center;
 }
 
 input[type="submit"]{
@@ -71,3 +74,4 @@ input[type="submit"]{
 .words p {
   clear: both;
 }
+
