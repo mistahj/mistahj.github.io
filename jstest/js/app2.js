@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
     $(".button").one('click', function () {
-        var userInput = $("#move").val();
+        var userInput = $("#move").val().toLowercase();
         var compInput = Math.floor((Math.random() * 15) + 1);
 
         if ((userInput !== "scissors") && (userInput !== "rock") && (userInput !== "paper")) {
