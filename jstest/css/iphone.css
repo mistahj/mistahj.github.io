@@ -7,6 +7,16 @@ and (min-device-width : 320px)
 and (max-device-width : 480px)
 {
 
+.container{
+  width: /*700px*/  65%;
+  margin: 40px auto;
+  background-color: #ccc;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
 form {
   width: 95%;
   display: block;
